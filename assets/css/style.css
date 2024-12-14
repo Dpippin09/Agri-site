@@ -46,6 +46,11 @@ p {
     font-size: 16px;
 }
 
+#welcome {
+    margin: 0; /* Removes default margin */
+    float: left;
+}
+/* Base styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -54,16 +59,30 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Media queries for mobile compatibility */
+@media (max-width: 768px) {
+    .hero {
+        height: 500px; /* Adjust the height for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 300px; /* Adjust the height for mobile phones */
+    }
+}
 nav {
     display: flex;
     justify-content: flex-end; /* Aligns the nav-links container to the right */
     padding: 10px 20px;
     background-color: #ccc5b9;
-    color: #9c9c9c;
+    color: #505050;
     position: fixed;
     width: 100%; /* Ensures the nav container takes the full width */
     top: 0; /* Fixes the nav to the top of the page */
 }
+
 
 .nav-links {
     display: flex;
@@ -127,41 +146,252 @@ p {
 
 
 
+/* Base styles */
 .about-Us {
     margin-bottom: 20px;
     padding: 50px;
-    height: 530px;
+    height: auto; /* Change height to auto for better responsiveness */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-size-adjust: 100%;
     background-color: #588157;
     color: #dad7cd;
 }
 
+.about-Us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.about-Us h2 {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.about-Us p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+/* Media queries for mobile compatibility */
+@media (max-width: 768px) {
+    .about-Us {
+        padding: 30px;
+    }
+
+    .about-Us img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .about-Us h2 {
+        font-size: 24px;
+    }
+
+    .about-Us p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-Us {
+        padding: 20px;
+    }
+
+    .about-Us h2 {
+        font-size: 20px;
+    }
+
+    .about-Us p {
+        font-size: 14px;
+    }
+}
+
+/* Base styles */
 .soil-health {
     margin-bottom: 20px;
     padding: 50px;
-    height: 500px;
+    height: auto; /* Change height to auto for better responsiveness */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #a3b18a;
     color: #dad7cd;
 }
 
+.soil-health img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.soil-health h2 {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.soil-health p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+/* Media queries for mobile compatibility */
+@media (max-width: 768px) {
+    .soil-health {
+        padding: 30px;
+    }
+
+    .soil-health img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .soil-health h2 {
+        font-size: 24px;
+    }
+
+    .soil-health p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .soil-health {
+        padding: 20px;
+    }
+
+    .soil-health h2 {
+        font-size: 20px;
+    }
+
+    .soil-health p {
+        font-size: 14px;
+    }
+}
+
+/* Base styles */
 .Projects {
     margin-bottom: 20px;
     padding: 50px;
-    height: 500px;
+    height: auto; /* Change height to auto for better responsiveness */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #588157;
     color: #dad7cd;
 }
 
+.Projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.Projects h2 {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.Projects p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+/* Media queries for mobile compatibility */
+@media (max-width: 768px) {
+    .Projects {
+        padding: 30px;
+    }
+
+    .Projects img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .Projects h2 {
+        font-size: 24px;
+    }
+
+    .Projects p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Projects {
+        padding: 20px;
+    }
+
+    .Projects h2 {
+        font-size: 20px;
+    }
+
+    .Projects p {
+        font-size: 14px;
+    }
+}
+
+/* Base styles */
 .our-farms {
     margin-bottom: 20px;
     padding: 50px;
-    height: 500px;
+    height: auto; /* Change height to auto for better responsiveness */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #a3b18a;
     color: #dad7cd;
+}
+
+.our-farms img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.our-farms h2 {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.our-farms p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+/* Media queries for mobile compatibility */
+@media (max-width: 768px) {
+    .our-farms {
+        padding: 30px;
+    }
+
+    .our-farms img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .our-farms h2 {
+        font-size: 24px;
+    }
+
+    .our-farms p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .our-farms {
+        padding: 20px;
+    }
+
+    .our-farms h2 {
+        font-size: 20px;
+    }
+
+    .our-farms p {
+        font-size: 14px;
+    }
 }
 
 .about-Us img {
@@ -177,7 +407,7 @@ p {
 }
 
 .our-farms img {
-    max-height: 350px;
+    max-height: 300px;
 }
 
 .about-Us h2 {
@@ -248,50 +478,53 @@ p {
 
 /* Media queries for mobile compatibility */
 @media (max-width: 768px) {
-    .search-engine-optimization,
-    .online-reputation-management,
-    .social-media-marketing {
-        padding: 20px;
-        height: auto;
-    }
-
-    .search-engine-optimization h2,
-    .online-reputation-management h2,
-    .social-media-marketing h2 {
+    .header h1 {
         font-size: 28px;
     }
 
-    .search-engine-optimization img,
-    .online-reputation-management img,
-    .social-media-marketing img {
-        max-height: 150px;
-        width: 100%;
-        height: auto;
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
     }
-}
 
-@media (max-width: 480px) {
-    .search-engine-optimization,
-    .online-reputation-management,
-    .social-media-marketing {
+    .nav-links a {
         padding: 10px;
     }
 
-    .search-engine-optimization h2,
-    .online-reputation-management h2,
-    .social-media-marketing h2 {
+    .hero {
+        height: 300px;
+    }
+
+    main img {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .header h1 {
         font-size: 24px;
     }
 
-    .search-engine-optimization img,
-    .online-reputation-management img,
-    .social-media-marketing img {
-        max-height: 100px;
+    .nav-links a {
+        padding: 8px;
     }
+
+    .hero {
+        height: 200px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+
 }
 
 .footer {
-    padding: 30px;
+    padding: 15px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
