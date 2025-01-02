@@ -177,6 +177,7 @@ h3{
     font-size: 24px;
     margin-top: 0;
     text-decoration: underline;
+    color: #000000;
 }
 
 /* Base styles */
@@ -347,7 +348,7 @@ main.Projects section {
 .Projects h2 {
     text-decoration: underline;
     margin-top: 0;
-    color: black;
+    
 }
 
 .Projects p {
