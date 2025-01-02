@@ -15,14 +15,7 @@ body {
     color: #dde5b6;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
 
 .header div {
     padding-top: 15px;
@@ -75,6 +68,8 @@ p {
 nav {
     display: flex;
     justify-content: flex-end; /* Aligns the nav-links container to the right */
+    align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
     background-color: #ccc5b9;
     color: #505050;
@@ -83,6 +78,10 @@ nav {
     top: 0; /* Fixes the nav to the top of the page */
 }
 
+.Welcome {
+    margin: 0; /* Removes default margin */
+    float: left;
+}
 
 .nav-links {
     display: flex;
@@ -102,11 +101,40 @@ nav {
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-size: 18px;
     
 }
 
 .nav-links a:hover {
     background-color: #797979;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a39171;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ccc5b9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .nav-links .login-signup {
@@ -119,7 +147,8 @@ nav {
     color: #ffffff;
 }
 
-h2 {
+h1 {
+    
     text-decoration: underline;
 }
 
@@ -214,7 +243,7 @@ p {
     padding: 50px;
     height: auto; /* Change height to auto for better responsiveness */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #a3b18a;
+    background-color: #588157;
     color: #dad7cd;
 }
 
@@ -276,16 +305,28 @@ p {
     padding: 50px;
     height: auto; /* Change height to auto for better responsiveness */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #588157;
+    background-color: #a3b18a;
     color: #dad7cd;
+}
+
+main.Projects {
+    display: flex;
+    flex-direction: column;
+}
+
+main.Projects img {
+    align-self: center;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+   
 }
 
 .Projects img {
     max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-right: 20px;
+    max-height: fit-content;
 }
+
 
 .Projects h2 {
     text-decoration: underline;
@@ -304,9 +345,10 @@ p {
     }
 
     .Projects img {
-        float: none;
-        display: block;
-        margin: 0 auto 20px;
+        max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 20px;
     }
 
     .Projects h2 {
