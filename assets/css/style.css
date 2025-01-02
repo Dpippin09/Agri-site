@@ -318,6 +318,11 @@ main.Projects {
     flex-direction: column;
 }
 
+main.Projects section {
+    padding: 45px; /* Add desired padding */
+    margin-bottom: 10px; /* Optional: Add margin between sections */
+}
+
 #graphic-image {
     display: block;
     margin-left: auto;
@@ -342,6 +347,7 @@ main.Projects {
 .Projects h2 {
     text-decoration: underline;
     margin-top: 0;
+    color: black;
 }
 
 .Projects p {
