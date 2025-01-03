@@ -356,40 +356,49 @@ main.Projects section {
     font-size: 22px;
 }
 
+.section-image {
+    float: right;
+    margin-left: 20px; /* Optional: Add margin to the left for spacing */
+    width: 200px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add border radius */
+}
+
 #Dead-Trees {
     background-color: #6a994e; /* Set the desired background color */
-    padding: 30px; /* Optional: Add padding for better spacing */
+    padding: 50px; /* Optional: Add padding for better spacing */
 }
 
 #Biochar {
     background-color: #386641; /* Set the desired background color */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    padding: 50px; /* Optional: Add padding for better spacing */
 }
 
 #Fertilizer {
     background-color: #6a994e; /* Set the desired background color */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    padding: 50px; /* Optional: Add padding for better spacing */
 }
 
 #Healthy-Soil {
     background-color: #386641; /* Set the desired background color */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    padding: 50px; /* Optional: Add padding for better spacing */
 }
 
 #Healthy-Crops {
     background-color: #6a994e; /* Set the desired background color */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    padding: 50px; /* Optional: Add padding for better spacing */
 }
 
 #Clean {
     background-color: #386641; /* Set the desired background color */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    padding: 50px; /* Optional: Add padding for better spacing */
 }
 
 #Carbon-Returned {
     background-color: #6a994e; /* Set the desired background color */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    padding: 50px; /* Optional: Add padding for better spacing */
 }
+/* Add other sections as needed */
 
 /* Media queries for mobile compatibility */
 @media (max-width: 768px) {
@@ -399,9 +408,9 @@ main.Projects section {
 
     .Projects img {
         max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-left: 20px;
+        height: auto;
+        border-radius: 5px;
+        margin-left: 20px;
     }
 
     .Projects h2 {
@@ -433,7 +442,7 @@ main.Projects section {
     padding: 50px;
     height: auto; /* Change height to auto for better responsiveness */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #a3b18a;
+    background-color: #588157;
     color: #dad7cd;
 }
 
