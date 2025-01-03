@@ -191,8 +191,9 @@ h3{
 }
 
 .about-Us img {
-    max-width: 100%;
-    height: auto;
+    width: 400px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed the container's width */
     border-radius: 5px;
     margin-right: 20px;
 }
@@ -353,6 +354,41 @@ main.Projects section {
 
 .Projects p {
     font-size: 22px;
+}
+
+#Dead-Trees {
+    background-color: #6a994e; /* Set the desired background color */
+    padding: 30px; /* Optional: Add padding for better spacing */
+}
+
+#Biochar {
+    background-color: #386641; /* Set the desired background color */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+#Fertilizer {
+    background-color: #6a994e; /* Set the desired background color */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+#Healthy-Soil {
+    background-color: #386641; /* Set the desired background color */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+#Healthy-Crops {
+    background-color: #6a994e; /* Set the desired background color */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+#Clean {
+    background-color: #386641; /* Set the desired background color */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+#Carbon-Returned {
+    background-color: #6a994e; /* Set the desired background color */
+    padding: 20px; /* Optional: Add padding for better spacing */
 }
 
 /* Media queries for mobile compatibility */
